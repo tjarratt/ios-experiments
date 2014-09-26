@@ -16,22 +16,7 @@
 		F7C828BD19D51710002D8EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C828BB19D51710002D8EDE /* Main.storyboard */; };
 		F7C828C019D51710002D8EDE /* GLGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C828BF19D51710002D8EDE /* GLGViewController.m */; };
 		F7C828C219D51710002D8EDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C828C119D51710002D8EDE /* Images.xcassets */; };
-		F7C828C919D51710002D8EDE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C828C819D51710002D8EDE /* XCTest.framework */; };
-		F7C828CA19D51710002D8EDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C828A919D51710002D8EDE /* Foundation.framework */; };
-		F7C828CB19D51710002D8EDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C828AD19D51710002D8EDE /* UIKit.framework */; };
-		F7C828D319D51710002D8EDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7C828D119D51710002D8EDE /* InfoPlist.strings */; };
-		F7C828D519D51710002D8EDE /* photo_pickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C828D419D51710002D8EDE /* photo_pickerTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F7C828CC19D51710002D8EDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7C8289E19D51710002D8EDE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7C828A519D51710002D8EDE;
-			remoteInfo = "photo-picker";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F7C828A619D51710002D8EDE /* photo-picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +33,7 @@
 		F7C828BE19D51710002D8EDE /* GLGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLGViewController.h; sourceTree = "<group>"; };
 		F7C828BF19D51710002D8EDE /* GLGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLGViewController.m; sourceTree = "<group>"; };
 		F7C828C119D51710002D8EDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F7C828C719D51710002D8EDE /* photo-pickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo-pickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C828C819D51710002D8EDE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F7C828D019D51710002D8EDE /* photo-pickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "photo-pickerTests-Info.plist"; sourceTree = "<group>"; };
-		F7C828D219D51710002D8EDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F7C828D419D51710002D8EDE /* photo_pickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photo_pickerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7C828C419D51710002D8EDE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7C828C919D51710002D8EDE /* XCTest.framework in Frameworks */,
-				F7C828CB19D51710002D8EDE /* UIKit.framework in Frameworks */,
-				F7C828CA19D51710002D8EDE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				F7C828AF19D51710002D8EDE /* photo-picker */,
-				F7C828CE19D51710002D8EDE /* photo-pickerTests */,
 				F7C828A819D51710002D8EDE /* Frameworks */,
 				F7C828A719D51710002D8EDE /* Products */,
 			);
@@ -93,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				F7C828A619D51710002D8EDE /* photo-picker.app */,
-				F7C828C719D51710002D8EDE /* photo-pickerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,24 +103,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F7C828CE19D51710002D8EDE /* photo-pickerTests */ = {
-			isa = PBXGroup;
-			children = (
-				F7C828D419D51710002D8EDE /* photo_pickerTests.m */,
-				F7C828CF19D51710002D8EDE /* Supporting Files */,
-			);
-			path = "photo-pickerTests";
-			sourceTree = "<group>";
-		};
-		F7C828CF19D51710002D8EDE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F7C828D019D51710002D8EDE /* photo-pickerTests-Info.plist */,
-				F7C828D119D51710002D8EDE /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,24 +123,6 @@
 			productReference = F7C828A619D51710002D8EDE /* photo-picker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7C828C619D51710002D8EDE /* photo-pickerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7C828DB19D51710002D8EDE /* Build configuration list for PBXNativeTarget "photo-pickerTests" */;
-			buildPhases = (
-				F7C828C319D51710002D8EDE /* Sources */,
-				F7C828C419D51710002D8EDE /* Frameworks */,
-				F7C828C519D51710002D8EDE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7C828CD19D51710002D8EDE /* PBXTargetDependency */,
-			);
-			name = "photo-pickerTests";
-			productName = "photo-pickerTests";
-			productReference = F7C828C719D51710002D8EDE /* photo-pickerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +132,6 @@
 				CLASSPREFIX = GLG;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "General Linear Group";
-				TargetAttributes = {
-					F7C828C619D51710002D8EDE = {
-						TestTargetID = F7C828A519D51710002D8EDE;
-					};
-				};
 			};
 			buildConfigurationList = F7C828A119D51710002D8EDE /* Build configuration list for PBXProject "photo-picker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				F7C828A519D51710002D8EDE /* photo-picker */,
-				F7C828C619D51710002D8EDE /* photo-pickerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,14 +159,6 @@
 				F7C828C219D51710002D8EDE /* Images.xcassets in Resources */,
 				F7C828B419D51710002D8EDE /* InfoPlist.strings in Resources */,
 				F7C828BD19D51710002D8EDE /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7C828C519D51710002D8EDE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7C828D319D51710002D8EDE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,23 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7C828C319D51710002D8EDE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7C828D519D51710002D8EDE /* photo_pickerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F7C828CD19D51710002D8EDE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F7C828A519D51710002D8EDE /* photo-picker */;
-			targetProxy = F7C828CC19D51710002D8EDE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F7C828B219D51710002D8EDE /* InfoPlist.strings */ = {
@@ -289,14 +192,6 @@
 				F7C828BC19D51710002D8EDE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F7C828D119D51710002D8EDE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7C828D219D51710002D8EDE /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -398,46 +293,6 @@
 			};
 			name = Release;
 		};
-		F7C828DC19D51710002D8EDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/photo-picker.app/photo-picker";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "photo-picker/photo-picker-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "photo-pickerTests/photo-pickerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F7C828DD19D51710002D8EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/photo-picker.app/photo-picker";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "photo-picker/photo-picker-Prefix.pch";
-				INFOPLIST_FILE = "photo-pickerTests/photo-pickerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,14 +310,6 @@
 			buildConfigurations = (
 				F7C828D919D51710002D8EDE /* Debug */,
 				F7C828DA19D51710002D8EDE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F7C828DB19D51710002D8EDE /* Build configuration list for PBXNativeTarget "photo-pickerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7C828DC19D51710002D8EDE /* Debug */,
-				F7C828DD19D51710002D8EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
